@@ -1,10 +1,23 @@
 package progexam;
-public class Main{
-    public static void main(String[]args){
-        String str = "百二十三";
-        int value = Integer.parseInt(str);
+
+public class Main {
+
+    public static void main(String[] args) {
+        // write your code here
+        try {
+            String str = null;
+            System.out.println(str.length());
+
+
+        } catch (NullPointerException e) {
+            System.out.println("nullが入力されています");
+            System.out.println(e.getMessage());
+        }
+
     }
 }
+
+
 
 
 
